@@ -8,7 +8,7 @@
 ### 🧸 각 멤버 역할과 역량
 
 |Participant|Roles|Skills|Training needs|
-|:---:|-----------|---|
+|:---:|-----------|---|---|
 |이채영|Team leader|Programming : Python, Java, C <br/>Github <br/>Django, Android Studio|UML|
 |방희연|Configuration manager, <br/>Implementor|Programming : Python, Java, C, HTML <br/>Database : sql|UML|
 |서현주|Facilities management liaison, <br/>Document editor|Programming: Python, Java, C|UML|
