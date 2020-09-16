@@ -38,8 +38,8 @@
 
 |Participant|Roles|Skills|Training needs|
 |:---:|-----------|---|---|
-|이채영|Team leader|Programming : Python, Java, C <br/>Github <br/>Django, Android Studio|UML, Flask|
-|방희연|Configuration manager, <br/>Implementor|Programming : Python, Java, C, HTML <br/>Database : sql|UML|
-|서현주|Facilities management liaison, <br/>Document editor|Programming: Python, Java, C|UML|
-|이승재|Implementor, tester|Programming : Java, C, Python|UML, Kotlin|
-|조수빈|Architecture liaison, <br/>Implementor|Programming: Python, Java, C|UML|
+|이채영|Team leader, <br/>Backend Developer|Programming : Python, Java, C <br/>Github <br/>Django, Android Studio|UML, Flask|
+|방희연|Android Developer, <br/>Configuration manager|Programming : Python, Java, C, HTML <br/>Database : sql|UML, Kotlin|
+|이승재|Android Developer, <br/>Tester|Programming : Java, C, Python|UML, Kotlin|
+|서현주|Embedded developer, <br/>Facilities management|Programming: Python, Java, C|UML|
+|조수빈|Embedded developer, <br/>Document editor|Programming: Python, Java, C|UML|
