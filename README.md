@@ -45,7 +45,7 @@
 ### 🌻 Use Case Description
 |||
 |:------------:|--------------------------|
-|__Use case name__|OvserveUser|
+|__Use case name__|ObserveUser|
 |__Participating actors__|User,Camera sensor,Guardian|
 |__Flow of events__|달콩이는 지정된 User를 Camera sensor로 얼굴을 인식하며 쫓아다닌다.<br/>달콩이는 User가 쓰러진 듯한 움직임이 발견되면 Application에 알림이 뜨도록 한다.
 |__Entry condition__|달콩이에게 User를 지정한다.<br/>Application에 User와 Guardian을 등록한다.<br/>Camera sensor는 User의 얼굴을 인식한다.|
