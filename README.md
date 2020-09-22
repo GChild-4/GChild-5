@@ -1,6 +1,20 @@
 # 🧚 GChild-5
 + 노인과 양방향적 의사소통을 가능하게 함으로써, 노인 우울, 외로움을 해결하고 주기적으로 건강을 확인하는 반려로봇 제작 프로젝트
 
+### 🧸 팀구성원
+- 조장 : 이채영
+- 방희연, 서현주, 이승재, 조수빈
+
+### 🧸 각 멤버 역할과 역량
+
+|Participant|Roles|Skills|Training needs|
+|:---:|-----------|---|---|
+|이채영|Team leader, <br/>Backend Developer|Programming : Python, Java, C <br/>Github <br/>Django, Android Studio|UML, Flask|
+|방희연|Android Developer, <br/>Configuration manager|Programming : Python, Java, C, HTML <br/>Database : sql|UML, Kotlin|
+|이승재|Android Developer, <br/>Tester|Programming : Java, C, Python|UML, Kotlin|
+|서현주|Embedded developer, <br/>Facilities management|Programming: Python, Java, C|UML|
+|조수빈|Embedded developer, <br/>Document editor|Programming: Python, Java, C|UML|
+
 ### ✏ Project Problem Statement
 달콩이는 독거노인의 말벗이 되어줄 뿐만 아니라 다양한 기능을 구현하여 노인 우울 및 불안, 외로움을 해소시켜주는 반려 로봇이다. 본 디바이스를 활용하였을 때 노인을 심리 정서적으로 안정시킬 수 있으며, 위험에 대한 대비를 가능하도록 하고, 보호자가 노인에 대한 정보를 쉽게 접근할 수 있도록 한다.
 #### 📌Analysis
@@ -46,8 +60,8 @@
 |||
 |:------------:|--------------------------|
 |__Use case 01 name__|ObserveUser|
-|__Participating actors__|User,Camera sensor,Guardian|
-|__Flow of events__|달콩이는 지정된 User를 Camera sensor로 얼굴을 인식하며 쫓아다닌다.<br/>달콩이는 User가 쓰러진 듯한 움직임이 발견되면 Application에 알림이 뜨도록 한다.
+|__Participating actors__|User,Guardian,Camera, Motor|
+|__Flow of events__|1. 달콩이는 지정된 User를 Camera sensor로 얼굴을 인식하며 쫓아다닌다.<br/>2. 달콩이는 User가 쓰러진 듯한 움직임이 발견되면 Application에 알림이 뜨도록 한다.
 |__Entry condition__|달콩이에게 User를 지정한다.<br/>Application에 User와 Guardian을 등록한다.<br/>Camera sensor는 User의 얼굴을 인식한다.|
 |__Exit condition__|Guardian은 Application으로부터 알림을 받는다.|
 |__Quality requirements__|ReportEmergency 알림은 Guardian에게 20초 이내로 보내진다.|
@@ -55,24 +69,8 @@
 |||
 |:------------:|--------------------------|
 |__Use case 02 name__|TalkwithCompanion|
-|__Participating actors__|HaveConversation use case로부터 상속되었다.|
+|__Participating actors__|User, Speaker, Microphone|
 |__Flow of events__|1. User는 Dalkong에게 말을 건넨다.<br/>2. Microphone은 User의 음성을 인식한다.<br/>&nbsp;&nbsp;&nbsp;&nbsp;3. Dalkong은 인식된 음성을 처리해 학습된 대화 메뉴얼에 맞추어 다음에 할 말을 선택한다.<br/>4. Speaker는  대답을 출력한다.|
 |__Entry condition__|HaveConversation use case로부터 상속되었다.|
 |__Exit condition__|HaveConversation use case로부터 상속되었다.|
 |__Quality requirements__|대화 시 문맥에 맞는 대화가 이루어져야 하므로 Dalkong System의 언어 학습이 제대로 수행되어야 한다.|
-
-***
-
-### 🧸 팀구성원
-- 조장 : 이채영
-- 방희연, 서현주, 이승재, 조수빈
-
-### 🧸 각 멤버 역할과 역량
-
-|Participant|Roles|Skills|Training needs|
-|:---:|-----------|---|---|
-|이채영|Team leader, <br/>Backend Developer|Programming : Python, Java, C <br/>Github <br/>Django, Android Studio|UML, Flask|
-|방희연|Android Developer, <br/>Configuration manager|Programming : Python, Java, C, HTML <br/>Database : sql|UML, Kotlin|
-|이승재|Android Developer, <br/>Tester|Programming : Java, C, Python|UML, Kotlin|
-|서현주|Embedded developer, <br/>Facilities management|Programming: Python, Java, C|UML|
-|조수빈|Embedded developer, <br/>Document editor|Programming: Python, Java, C|UML|
