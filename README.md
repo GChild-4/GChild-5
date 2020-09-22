@@ -62,7 +62,7 @@
 |__Use case 01 name__|ObserveUser|
 |__Participating actors__|User,Guardian,Camera, Motor|
 |__Flow of events__|1. 달콩이는 지정된 User를 Camera sensor로 얼굴을 인식하며 쫓아다닌다.<br/>2. 달콩이는 User가 쓰러진 듯한 움직임이 발견되면 Application에 알림이 뜨도록 한다.
-|__Entry condition__|달콩이에게 User를 지정한다.<br/>Application에 User와 Guardian을 등록한다.<br/>Camera sensor는 User의 얼굴을 인식한다.|
+|__Entry condition__|1. 달콩이에게 User를 지정한다.<br/>2. Application에 User와 Guardian을 등록한다.<br/>3. Camera sensor는 User의 얼굴을 인식한다.|
 |__Exit condition__|Guardian은 Application으로부터 알림을 받는다.|
 |__Quality requirements__|ReportEmergency 알림은 Guardian에게 20초 이내로 보내진다.|
 
@@ -71,6 +71,6 @@
 |__Use case 02 name__|TalkwithCompanion|
 |__Participating actors__|User, Speaker, Microphone|
 |__Flow of events__|1. User는 Dalkong에게 말을 건넨다.<br/>2. Microphone은 User의 음성을 인식한다.<br/>&nbsp;&nbsp;&nbsp;&nbsp;3. Dalkong은 인식된 음성을 처리해 학습된 대화 메뉴얼에 맞추어 다음에 할 말을 선택한다.<br/>4. Speaker는  대답을 출력한다.|
-|__Entry condition__|HaveConversation use case로부터 상속되었다.|
-|__Exit condition__|HaveConversation use case로부터 상속되었다.|
+|__Entry condition__|User가 달콩이에게 말을 건다.|
+|__Exit condition__|달콩이가 Speaker 통해 적절한 대답을 출력한다.|
 |__Quality requirements__|대화 시 문맥에 맞는 대화가 이루어져야 하므로 Dalkong System의 언어 학습이 제대로 수행되어야 한다.|
