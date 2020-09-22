@@ -73,4 +73,4 @@
 |조수빈|Embedded developer, <br/>Document editor|Programming: Python, Java, C|UML|
 
 Use Case Diagram
-![ex_screenshot](C:\Users\조수빈\Desktop\2020_2학기\소프트웨어공학(캡스톤디자인)\과제/Use Case Diagram.png)
+![ex_screenshot](./img/Use Case diagram.png)
