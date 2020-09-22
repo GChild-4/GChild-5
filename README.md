@@ -39,13 +39,13 @@
 |||
 |:------------:|-----------------------|
 |__Scenario 02 name__|ObserveUserforEmergencies|
-|__Participating actor instances__|Jane : User, <br/>Bob : Guardian, <br/>Camera|
+|__Participating actor instances__|Jane : User, <br/>Bob : Guardian, <br/>Camera, Motor|
 |__Flow of events__|1. Jane을 달콩이의 사용자로 지정하고 어플리케이션에도 등록한다.<br/>2. 달콩이는 Jane을 따라다니면서 Camera 센서로 노인의 얼굴을 인식해 쫓아다닌다.<br/>3. 카메라로 Jane을 관찰하던 달콩이가 노인이 갑자기 쓰러진 것와 비슷한 동작을 취한 것을 인식하면 Jane이 쓰러진 것 같다는 신호를 서버로 보낸다.<br/>4. 신호를 받은 서버는 Jane의 보호자로 등록되어 있는 Bob의 어플리케이션으로 신호를 보낸다.<br/>5. Bob은 'User가 쓰러진 것으로 의심됩니다.'라는 알림을 어플리케이션으로 받는다.<br/>6. Bob은 Jane의 상태를 확인하기 위해 전화를 해보거나 노인의 집을 찾아가 알림이 사실인지 확인한다. |
 
 ### 🌻 Use Case Description
 |||
 |:------------:|--------------------------|
-|__Use case name__|ObserveUser|
+|__Use case 01 name__|ObserveUser|
 |__Participating actors__|User,Camera sensor,Guardian|
 |__Flow of events__|달콩이는 지정된 User를 Camera sensor로 얼굴을 인식하며 쫓아다닌다.<br/>달콩이는 User가 쓰러진 듯한 움직임이 발견되면 Application에 알림이 뜨도록 한다.
 |__Entry condition__|달콩이에게 User를 지정한다.<br/>Application에 User와 Guardian을 등록한다.<br/>Camera sensor는 User의 얼굴을 인식한다.|
@@ -54,13 +54,12 @@
 
 |||
 |:------------:|--------------------------|
-|__Use case name__|TalkwithCompanion|
+|__Use case 02 name__|TalkwithCompanion|
 |__Participating actors__|HaveConversation use case로부터 상속되었다.|
 |__Flow of events__|1. User는 Dalkong에게 말을 건넨다.<br/>2. Microphone은 User의 음성을 인식한다.<br/>&nbsp;&nbsp;&nbsp;&nbsp;3. Dalkong은 인식된 음성을 처리해 학습된 대화 메뉴얼에 맞추어 다음에 할 말을 선택한다.<br/>4. Speaker는  대답을 출력한다.|
 |__Entry condition__|HaveConversation use case로부터 상속되었다.|
 |__Exit condition__|HaveConversation use case로부터 상속되었다.|
 |__Quality requirements__|대화 시 문맥에 맞는 대화가 이루어져야 하므로 Dalkong System의 언어 학습이 제대로 수행되어야 한다.|
-
 
 ***
 
