@@ -27,6 +27,7 @@
  
 ### 🌻 Use Case Diagram
 
+
 ### 🌻 Scenario Description
 
 |||
@@ -42,7 +43,7 @@
 |__Flow of events__|1. Jane을 달콩이의 사용자로 지정하고 어플리케이션에도 등록한다.<br/>2. 달콩이는 Jane을 따라다니면서 Camera 센서로 노인의 얼굴을 인식해 쫓아다닌다.<br/>3. 카메라로 Jane을 관찰하던 달콩이가 노인이 갑자기 쓰러진 것와 비슷한 동작을 취한 것을 인식하면 Jane이 쓰러진 것 같다는 신호를 서버로 보낸다.<br/>4. 신호를 받은 서버는 Jane의 보호자로 등록되어 있는 Bob의 어플리케이션으로 신호를 보낸다.<br/>5. Bob은 'User가 쓰러진 것으로 의심됩니다.'라는 알림을 어플리케이션으로 받는다.<br/>6. Bob은 Jane의 상태를 확인하기 위해 전화를 해보거나 노인의 집을 찾아가 알림이 사실인지 확인한다. |
 
 ### 🌻 Use Case Description
-![ex_screenshot](/img/Use Case description(시선관찰))
+![ex_screenshot](/img/UseCasedescription(시선관찰).PNG)
 
 |||
 |:------------:|--------------------------|
@@ -69,6 +70,3 @@
 |이승재|Android Developer, <br/>Tester|Programming : Java, C, Python|UML, Kotlin|
 |서현주|Embedded developer, <br/>Facilities management|Programming: Python, Java, C|UML|
 |조수빈|Embedded developer, <br/>Document editor|Programming: Python, Java, C|UML|
-
-Use Case Diagram
-![ex_screenshot](img/UseCasediagram.PNG)
