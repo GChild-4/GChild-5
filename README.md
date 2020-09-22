@@ -48,7 +48,7 @@
 |Use case name|TalkwithCompanion|
 |---------------------|----------------------------------------------------------------|
 |Participating actors|HaveConversation use case로부터 상속되었다.|
-|Flow of events|1. User는 Dalkong에게 말을 건넨다.<br/>2. Microphone은 User의 음성을 인식한다.<br/>&nbsp;&nbsp;3. Dalkong은 인식된 음성을 처리해 학습된 대화 메뉴얼에 맞추어 다음에 할 말을 선택한다.<br/>4. Speaker는  대답을 출력한다.|
+|Flow of events|1. User는 Dalkong에게 말을 건넨다.<br/>2. Microphone은 User의 음성을 인식한다.<br/>&nbsp;&nbsp;&nbsp;&nbsp;3. Dalkong은 인식된 음성을 처리해 학습된 대화 메뉴얼에 맞추어 다음에 할 말을 선택한다.<br/>4. Speaker는  대답을 출력한다.|
 |Entry condition|HaveConversation use case로부터 상속되었다.|
 |Exit condition|HaveConversation use case로부터 상속되었다.|
 |Quality requirements|대화 시 문맥에 맞는 대화가 이루어져야 하므로 Dalkong System의 언어 학습이 제대로 수행되어야 한다.|
