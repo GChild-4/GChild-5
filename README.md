@@ -69,3 +69,6 @@
 |이승재|Android Developer, <br/>Tester|Programming : Java, C, Python|UML, Kotlin|
 |서현주|Embedded developer, <br/>Facilities management|Programming: Python, Java, C|UML|
 |조수빈|Embedded developer, <br/>Document editor|Programming: Python, Java, C|UML|
+
+Use Case Diagram
+![ex_screenshot](./img/Use Case Diagram.png)
