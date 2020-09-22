@@ -73,4 +73,4 @@
 |조수빈|Embedded developer, <br/>Document editor|Programming: Python, Java, C|UML|
 
 Use Case Diagram
-![ex_screenshot](./img/Use Case diagram.png)
+![ex_screenshot](./img/use case diagram.png)
