@@ -47,8 +47,8 @@
 |||
 |:------------:|-----------------------|
 |__Scenario 01 name__|Playntertainmentt|
-|__Participating actor instances__|Jane : User, <br/>Speaker, Microphone|
-|__Flow of events__|1. Jane은 주변에 돌보아줄 이가 없는 독거노인이다.<br/>2. Jane 또는 보호자들이 사전에 일정을 등록해 놓음으로써 시간이 되면 알림을 받을 수 있다.<br/>3. 무료한 시간을 보내고 있는 Jane은 달콩이의 오른손을 누름으로써 간단한 엔터테인먼트 활동을 즐길 수 있다.<br/>4. 활동은 게임 혹은 명상 등으로 미리 등록되어있다.<br/>5. 활동이 유익했다고 생각하며 주기적으로 엔터테인먼트 활동을 즐기고 싶다고 생각한 Jane은 음성인식을 통해 일정을 등록한다.<br/>6. "달콩아, 일정 등록해줘" -> "네~ 언제 무슨 일정을 등록할까요?" -> "월요일, 수요일 오후 6시에 엔터테인먼트 활동으로 부탁해~"<br/>7. 일정이 인형에 등록되었고, Jane은 등록한 시간에 알림을 받을 수 있다. |
+|__Participating actor instances__|Jane : Dalkong User(elder), <br/>Speaker, Microphone|
+|__Flow of events__| 1. Jane 또는 보호자들이 사전에 일정을 등록해 놓음으로써 시간이 되면 알림을 받을 수 있다.<br/>2. 무료한 시간을 보내고 있는 Jane은 달콩이의 오른손을 누름으로써 간단한 엔터테인먼트 활동을 즐길 수 있다.<br/>3. 활동은 게임 혹은 명상 등으로 미리 등록되어있다.<br/>4. 활동이 유익했다고 생각하며 주기적으로 엔터테인먼트 활동을 즐기고 싶다고 생각한 Jane은 음성인식을 통해 일정을 등록한다.<br/>5. "달콩아, 일정 등록해줘" -> "네~ 언제 무슨 일정을 등록할까요?" -> "월요일, 수요일 오후 6시에 엔터테인먼트 활동으로 부탁해~"<br/> 6. 일정이 달콩에 등록되었고, Jane은 등록한 시간에 알림을 받을 수 있다. |
 
 |||
 |:------------:|-----------------------|
@@ -60,10 +60,10 @@
 |||
 |:------------:|--------------------------|
 |__Use case 01 name__|ObserveUser|
-|__Participating actors__|User,Guardian,Camera, Motor|
+|__Participating actors__|User, Guardian, Camera, Motor|
 |__Flow of events__|1. 달콩이는 지정된 User를 Camera sensor로 얼굴을 인식하며 쫓아다닌다.<br/>2. 달콩이는 User가 쓰러진 듯한 움직임이 발견되면 Application에 알림이 뜨도록 한다.
 |__Entry condition__|1. 달콩이에게 User를 지정한다.<br/>2. Application에 User와 Guardian을 등록한다.<br/>3. Camera sensor는 User의 얼굴을 인식한다.|
-|__Exit condition__|Guardian은 Application으로부터 알림을 받는다.|
+|__Exit condition__|Guardian은 Application으로 부터 알림을 받는다.|
 |__Quality requirements__|ReportEmergency 알림은 Guardian에게 20초 이내로 보내진다.|
 
 |||
