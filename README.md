@@ -58,7 +58,7 @@
 
 ### 🌻 Use Case Description
 |||
-|:------------:|--------------------------|
+|:--------------------:|----------------------------------|
 |__Use case 01 name__|ObserveUser|
 |__Participating actors__|Dalkong User(Elder), Guardian, Camera, Motor|
 |__Flow of events__|1. 달콩이는 지정된 User를 Camera sensor로 얼굴을 인식한다.<br/>2. 달콩이는 인식한 얼굴을 쫓아다닌다.<br/>&nbsp;&nbsp;&nbsp;&nbsp;3. User가 쓰러진다.<br/>4. 달콩이는 User가 쓰러진 듯한 움직임을 발견한다.<br/>5. Guardian의 Application에 알림이 뜨도록 한다.
@@ -67,7 +67,7 @@
 |__Quality requirements__|ReportEmergency 알림은 Guardian에게 20초 이내로 보내진다.|
 
 |||
-|:------------:|--------------------------|
+|:--------------------:|----------------------------------|
 |__Use case 02 name__|TalkwithCompanion|
 |__Participating actors__|User, Speaker, Microphone|
 |__Flow of events__|1. User는 Dalkong에게 말을 건넨다.<br/>2. Microphone은 User의 음성을 인식한다.<br/>&nbsp;&nbsp;&nbsp;&nbsp;3. Dalkong은 인식된 음성을 처리해 학습된 대화 메뉴얼에 맞추어 다음에 할 말을 선택한다.<br/>4. Speaker는  대답을 출력한다.|
