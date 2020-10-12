@@ -16,18 +16,18 @@
 |조수빈|Embedded developer, <br/>Document editor|Programming: Python, Java, C|UML|
 
 목차
-- Project Problem Statement(#Project-Problem-Statement)
-    Analysis(#Analysis)
-    Functuonal Requirement(#Functuonal-Requirement)
-    Nonfunctuonal Requirement(#Nonfunctuonal-Requirement)
+- [Project Problem Statement](#Project-Problem-Statement)
+    [Analysis](#Analysis)
+    [Functuonal Requirement](#Functuonal-Requirement)
+    [Nonfunctuonal Requirement](#Nonfunctuonal-Requirement)
   
-- Use Case Diagram(#Use-Case-Diagram)
-- Scenario Description(#Scenario-Description)
-- Use Case Description(#Use-Case-Description)
+- [Use Case Diagram](#Use-Case-Diagram)
+- [Scenario Description](#Scenario-Description)
+- [Use Case Description](#Use-Case-Description)
 
-- Sequence Diagram(#Sequence-Diagram)
-- Class diagram(#Class-diagram)
-- Object diagram(#Object-diagram)
+- [Sequence Diagram](#Sequence-Diagram)
+- [Class Diagram](#Class-diagram)
+- [Object Diagram](#Object-diagram)
     
 ### ✏ Project Problem Statement
 달콩이는 독거노인의 말벗이 되어줄 뿐만 아니라 다양한 기능을 구현하여 노인 우울 및 불안, 외로움을 해소시켜주는 반려 로봇이다. 본 디바이스를 활용하였을 때 노인을 심리 정서적으로 안정시킬 수 있으며, 위험에 대한 대비를 가능하도록 하고, 보호자가 노인에 대한 정보를 쉽게 접근할 수 있도록 한다.
@@ -63,7 +63,7 @@
 **<< >>**
 |||
 |:---------------:|--------------------------|
-|__Scenario 01 name__|Playntertainmentt|
+|__Scenario 01 name__|PlayEntertainmentt|
 |__Participating actor instances__|Jane : Dalkong User(elder), <br/>Speaker, Microphone|
 |__Flow of events__| 1. Jane 또는 보호자들이 사전에 일정을 등록해 놓음으로써 시간이 되면 알림을 받을 수 있다.<br/>2. 무료한 시간을 보내고 있는 Jane은 달콩이의 오른손을 누름으로써 간단한 엔터테인먼트 활동을 즐길 수 있다.<br/>3. 활동은 게임 혹은 명상 등으로 미리 등록되어있다.<br/>4. 활동이 유익했다고 생각하며 주기적으로 엔터테인먼트 활동을 즐기고 싶다고 생각한 Jane은 음성인식을 통해 일정을 등록한다.<br/>5. "달콩아, 일정 등록해줘" -> "네~ 언제 무슨 일정을 등록할까요?" -> "월요일, 수요일 오후 6시에 엔터테인먼트 활동으로 부탁해~"<br/> 6. 일정이 달콩에 등록되었고, Jane은 등록한 시간에 알림을 받을 수 있다. |
 
@@ -101,9 +101,9 @@ NO. 01 **<< >>**
 
 NO. 02 **<< >>**
 
-### ✏ Class diagram
+### ✏ Class Diagram
 **<< >>** 
 
-### ✏ Object diagram
+### ✏ Object Diagram
 **<< >>** 
 
