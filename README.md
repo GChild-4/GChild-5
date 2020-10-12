@@ -40,23 +40,28 @@
  ***
  
 ### 🌻 Use Case Diagram
+**<< >>**
 ![ex_screenshot](/img/UseCasediagram.PNG)
 
 ### 🌻 Scenario Description
 
+**<< >>**
 |||
-|:------------:|-----------------------|
+|:---------------:|--------------------------|
 |__Scenario 01 name__|Playntertainmentt|
 |__Participating actor instances__|Jane : Dalkong User(elder), <br/>Speaker, Microphone|
 |__Flow of events__| 1. Jane 또는 보호자들이 사전에 일정을 등록해 놓음으로써 시간이 되면 알림을 받을 수 있다.<br/>2. 무료한 시간을 보내고 있는 Jane은 달콩이의 오른손을 누름으로써 간단한 엔터테인먼트 활동을 즐길 수 있다.<br/>3. 활동은 게임 혹은 명상 등으로 미리 등록되어있다.<br/>4. 활동이 유익했다고 생각하며 주기적으로 엔터테인먼트 활동을 즐기고 싶다고 생각한 Jane은 음성인식을 통해 일정을 등록한다.<br/>5. "달콩아, 일정 등록해줘" -> "네~ 언제 무슨 일정을 등록할까요?" -> "월요일, 수요일 오후 6시에 엔터테인먼트 활동으로 부탁해~"<br/> 6. 일정이 달콩에 등록되었고, Jane은 등록한 시간에 알림을 받을 수 있다. |
 
+**<< >>**
 |||
-|:------------:|-----------------------|
+|:---------------:|--------------------------|
 |__Scenario 02 name__|ObserveUserforEmergencies|
 |__Participating actor instances__|Jane : User, <br/>Bob : Guardian, <br/>Camera, Motor|
 |__Flow of events__|1. Jane을 달콩이의 사용자로 지정하고 어플리케이션에도 등록한다.<br/>2. 달콩이는 Jane을 따라다니면서 Camera 센서로 노인의 얼굴을 인식해 쫓아다닌다.<br/>3. 카메라로 Jane을 관찰하던 달콩이가 노인이 갑자기 쓰러진 것와 비슷한 동작을 취한 것을 인식하면 Jane이 쓰러진 것 같다는 신호를 서버로 보낸다.<br/>4. 신호를 받은 서버는 Jane의 보호자로 등록되어 있는 Bob의 어플리케이션으로 신호를 보낸다.<br/>5. Bob은 'User가 쓰러진 것으로 의심됩니다.'라는 알림을 어플리케이션으로 받는다.<br/>6. Bob은 Jane의 상태를 확인하기 위해 전화를 해보거나 노인의 집을 찾아가 알림이 사실인지 확인한다. |
 
 ### 🌻 Use Case Description
+
+**<< >>**
 |||
 |:--------------------:|----------------------------------|
 |__Use case 01 name__|ObserveUser|
@@ -66,6 +71,7 @@
 |__Exit condition__|Guardian은 Application으로 부터 알림을 받는다.|
 |__Quality requirements__|ReportEmergency 알림은 Guardian에게 20초 이내로 보내진다.|
 
+**<< >>**
 |||
 |:--------------------:|----------------------------------|
 |__Use case 02 name__|TalkwithCompanion|
