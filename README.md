@@ -97,5 +97,7 @@ NO. 02 **<<TalkwithCompanion - 서현주 >>**
 <img src = "img\classDiagram.png" width = "750" height = "430" alt = "Use Case Diagram">
 
 ### ✏ Object Diagram
-**<< >>** 
+**<<이승재>>** 
+
+<img src = "img\Object diagram.PNG" width = "750" height = "430">
 
