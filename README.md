@@ -85,7 +85,7 @@
 ### ✏ Sequence Diagram
 NO. 01 **<<OvserveUser - 방희연>>**
 
-<img src = "img\ObserveUserSeqD.PNG" width = "750" height = "300" alt = "ObserveUser Sequece Diagram">
+<img src = "img\ObserveUserSeqD.PNG" width = "750" height = "550" alt = "ObserveUser Sequece Diagram">
 
 NO. 02 **<< >>**
 
