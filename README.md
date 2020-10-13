@@ -87,7 +87,9 @@ NO. 01 **<<OvserveUser - 방희연>>**
 
 <img src = "img\ObserveUserSeqD.PNG" width = "750" height = "430" alt = "ObserveUser Sequece Diagram">
 
-NO. 02 **<< >>**
+NO. 02 **<<TalkwithCompanion - 서현주 >>**
+
+<img src = "img/HaveConversationSeqD.PNG" width = "750" height = "430" alt = "TalkwithCompanion Sequence Diagram">
 
 ### ✏ Class Diagram
 **<< >>** 
