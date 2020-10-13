@@ -41,8 +41,8 @@
  ***
  
 ### 🌻 Use Case Diagram
-**<< >>**
-![ex_screenshot](/img/usecasediagram.PNG)
+**<<이채영>>**
+<img src = "img\usecasediagram.PNG" width = "750" height = "430" alt = "Use Case Diagram">
 
 ### 🌻 Scenario Description
 
