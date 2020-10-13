@@ -83,7 +83,8 @@
 |__Quality requirements__|대화 시 문맥에 맞는 대화가 이루어져야 하므로 Dalkong System의 언어 학습이 제대로 수행되어야 한다.|
 
 ### ✏ Sequence Diagram
-NO. 01 **<< >>**
+NO. 01 **<<OvserveUser - 방희연>>**
+<img src = "img\ObserveUserSeqD.PNG" alt = "ObserveUser Sequece Diagram">
 
 NO. 02 **<< >>**
 
