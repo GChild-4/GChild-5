@@ -42,7 +42,7 @@
  
 ### 🌻 Use Case Diagram
 **<<이채영>>**
-<img src = "img\usecase.PNG" width = "750" height = "430" alt = "Use Case Diagram">
+<img src = "img\usecase.png" width = "750" height = "430" alt = "Use Case Diagram">
 
 ### 🌻 Scenario Description
 
@@ -94,7 +94,7 @@ NO. 02 **<<TalkwithCompanion - 서현주 >>**
 ### ✏ Class Diagram
 **<<조수빈, 이채영>>** 
 
-<img src = "img\classDiagram.PNG" width = "750" height = "430" alt = "Use Case Diagram">
+<img src = "img\classDiagram.png" width = "750" height = "430" alt = "Use Case Diagram">
 
 ### ✏ Object Diagram
 **<< >>** 
