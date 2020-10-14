@@ -77,9 +77,9 @@ NO. 02 **<<TalkwithCompanion - 서현주>>**
 |||
 |:--------------------:|----------------------------------|
 |__Use case 02 name__|TalkwithCompanion|
-|__Participating actors__|User, Speaker, Microphone|
-|__Flow of events__|1. User는 Dalkong에게 말을 건넨다.<br/>2. Microphone은 User의 음성을 인식한다.<br/>&nbsp;&nbsp;&nbsp;&nbsp;3. Dalkong은 인식된 음성을 처리해 학습된 대화 메뉴얼에 맞추어 다음에 할 말을 선택한다.<br/>4. Speaker는  대답을 출력한다.|
-|__Entry condition__|User가 달콩이에게 말을 건다.|
+|__Participating actors__|Elder, Speaker, Microphone|
+|__Flow of events__|1. Elder는 Dalkong에게 말을 건넨다.<br/>2. Microphone은 Elder의 음성을 인식한다.<br/>&nbsp;&nbsp;&nbsp;&nbsp;3. Dalkong은 인식된 음성을 처리해 학습된 대화 메뉴얼에 맞추어 다음에 할 말을 선택한다.<br/>4. Speaker는  대답을 출력한다.|
+|__Entry condition__|Elder가 달콩이에게 말을 건다.|
 |__Exit condition__|달콩이가 Speaker 통해 적절한 대답을 출력한다.|
 |__Quality requirements__|대화 시 문맥에 맞는 대화가 이루어져야 하므로 Dalkong System의 언어 학습이 제대로 수행되어야 한다.|
 
