@@ -102,3 +102,15 @@ NO. 02 **<<TalkwithCompanion - 서현주 >>**
 
 <img src = "img\Object diagram.PNG" width = "750" height = "430">
 
+### ✏ Design Goal Description
++ 
+</br>
+
++ 
+</br>
+
+### ✏ Component Diagram
+
+<img src = "img\component_diagram.PNG" width = "750" height = "430">
+
+### ✏ Deployment Diagram
