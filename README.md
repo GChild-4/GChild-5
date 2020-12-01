@@ -114,3 +114,5 @@ NO. 02 **<<TalkwithCompanion - 서현주 >>**
 <img src = "img\component_diagram.jpg" width = "750" height = "430">
 
 ### ✏ Deployment Diagram
+
+<img src = "img/deployment_diagram.PNG.jpg" width = "750" height = "430">
