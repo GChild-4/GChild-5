@@ -103,10 +103,10 @@ NO. 02 **<<TalkwithCompanion - 서현주 >>**
 <img src = "img\Object diagram.PNG" width = "750" height = "430">
 
 ### ✏ Design Goal Description
-+ 
++ Dalkong system은 말동무, 시선관찰, 엔터테인먼트(게임, 명상)와 같은 기존 기능을 클래스로 분리하여 개별적으로 개발함으로써 노인을 위한 새로운 기능이 추가될 수 있어야 하며, 기존 기능 또한 쉽게 수정될 수 있어야 한다.
 </br>
 
-+ 
++ Dalkong system은 경험이 없는 사람도 설명서를 보지 않고 10분 안에 사용가능하도록 한다.
 </br>
 
 ### ✏ Component Diagram
