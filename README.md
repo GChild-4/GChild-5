@@ -111,7 +111,7 @@ NO. 02 **<<TalkwithCompanion - 서현주 >>**
 
 ### ✏ Component Diagram
 
-<img src = "img\component_diagram.jpg" width = "750" height = "430">
+<img src = "img\component.jpg" width = "750" height = "430">
 
 ### ✏ Deployment Diagram
 
