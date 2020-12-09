@@ -109,10 +109,6 @@ NO. 02 **<<TalkwithCompanion - 서현주 >>**
 + Dalkong system은 경험이 없는 사람도 설명서를 보지 않고 10분 안에 사용가능하도록 한다.
 </br>
 
-### ✏ Component Diagram
+### ✏ Deployment Diagram &  Component Diagram
 
-<img src = "img\component.jpg" width = "750" height = "430">
-
-### ✏ Deployment Diagram
-
-<img src = "img/deployment diagram.PNG.jpg" width = "750" height = "430">
+<img src = "img/Deploy&Component.PNG.jpg" width = "750" height = "430">
