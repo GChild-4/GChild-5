@@ -84,9 +84,9 @@ NO. 02 **<<TalkwithCompanion - 서현주>>**
 |__Quality requirements__|대화 시 문맥에 맞는 대화가 이루어져야 하므로 Dalkong System의 언어 학습이 제대로 수행되어야 한다.|
 
 ### ✏ Sequence Diagram
-NO. 01 **<<OvserveUser - 방희연>>**
+NO. 01 **<<OvserveUser - 방희연, 조수빈>>**
 
-<img src = "img\ObserveUserSeqD.PNG" width = "750" height = "430" alt = "ObserveUser Sequece Diagram">
+<img width="783" alt="sequence diagram(2)" src="https://user-images.githubusercontent.com/69884151/102841975-4e2ff800-4449-11eb-9751-4aef5e4cda4a.PNG">
 
 NO. 02 **<<TalkwithCompanion - 서현주 >>**
 
