@@ -6,7 +6,8 @@
 - 방희연, 서현주, 이승재, 조수빈
 
 
-### 🧸 각 멤버 역할과 역량
+<details> 
+  <summary> 🧸 각 멤버 역할과 역량 </summary>
 
 |Participant|Roles|Skills|Training needs|
 |:---:|-----------|---|---|
@@ -15,6 +16,8 @@
 |이승재|Android Developer, <br/>Tester|Programming : Java, C, Python|UML, Kotlin|
 |서현주|Embedded developer, <br/>Facilities management|Programming: Python, Java, C|UML|
 |조수빈|Embedded developer, <br/>Document editor|Programming: Python, Java, C|UML|
+
+</details>
 
 
 ### ✏ Project Problem Statement
@@ -47,7 +50,7 @@
 
 <img src = "img\usecase.png" width = "750" height = "430" alt = "Use Case Diagram">
 
-### 🌻 Scenario Description
+### 📌 Scenario Description
 
 NO. 01 **<<PlayEntertainment - 방희연>>**
 |||
@@ -63,7 +66,7 @@ NO. 02 **<<ObserveUserforEmergencies - 이채영>>**
 |__Participating actor instances__|Jane : User, <br/>Bob : Guardian, <br/>Camera, Motor|
 |__Flow of events__|1. Jane을 달콩이의 사용자로 지정하고 어플리케이션에도 등록한다.<br/>2. 달콩이는 Jane을 따라다니면서 Camera 센서로 노인의 얼굴을 인식해 쫓아다닌다.<br/>3. 카메라로 Jane을 관찰하던 달콩이가 노인이 갑자기 쓰러진 것와 비슷한 동작을 취한 것을 인식하면 Jane이 쓰러진 것 같다는 신호를 서버로 보낸다.<br/>4. 신호를 받은 서버는 Jane의 보호자로 등록되어 있는 Bob의 어플리케이션으로 신호를 보낸다.<br/>5. Bob은 'User가 쓰러진 것으로 의심됩니다.'라는 알림을 어플리케이션으로 받는다.<br/>6. Bob은 Jane의 상태를 확인하기 위해 전화를 해보거나 노인의 집을 찾아가 알림이 사실인지 확인한다. |
 
-### 🌻 Use Case Description
+### 📌 Use Case Description
 
 NO. 01 **<<ObserveUser - 조수빈>>**
 |||
@@ -85,7 +88,9 @@ NO. 02 **<<TalkwithCompanion - 서현주>>**
 |__Exit condition__|달콩이가 Speaker 통해 적절한 대답을 출력한다.|
 |__Quality requirements__|대화 시 문맥에 맞는 대화가 이루어져야 하므로 Dalkong System의 언어 학습이 제대로 수행되어야 한다.|
 
-### ✏ Sequence Diagram
+ ***
+
+### 🌻 Sequence Diagram
 NO. 01 **<<OvserveUser - 방희연, 조수빈>>**
 
 <img width="783" alt="sequence diagram(2)" src="https://user-images.githubusercontent.com/69884151/102841975-4e2ff800-4449-11eb-9751-4aef5e4cda4a.PNG">
@@ -94,23 +99,23 @@ NO. 02 **<<TalkwithCompanion - 서현주 >>**
 
 <img src = "img/HaveConversationSeqD.PNG" width = "750" height = "430" alt = "TalkwithCompanion Sequence Diagram">
 
-### ✏ Class Diagram
+### 🌻 Class Diagram
 **<<조수빈, 이채영>>** 
 
 <img src = "img\classDiagram_수정본.jpg" width = "750" height = "430" alt = "Use Case Diagram">
 
-### ✏ Object Diagram
+### 🌻 Object Diagram
 **<<이승재>>** 
 
 <img src = "img\Object diagram.PNG" width = "750" height = "430">
 
-### ✏ Design Goal Description
+### 📌 Design Goal Description
 + Dalkong system은 말동무, 시선관찰, 엔터테인먼트(게임, 명상)와 같은 기존 기능을 클래스로 분리하여 개별적으로 개발함으로써 노인을 위한 새로운 기능이 추가될 수 있어야 하며, 기존 기능 또한 쉽게 수정될 수 있어야 한다.
 </br>
 
 + Dalkong system은 경험이 없는 사람도 설명서를 보지 않고 10분 안에 사용가능하도록 한다.
 </br>
 
-### ✏ Deployment Diagram &  Component Diagram
+### 🌻 Deployment Diagram &  Component Diagram
 
 <img src = "img/Deploy&Component.jpg" width = "750" height = "430">
