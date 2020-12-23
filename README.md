@@ -6,8 +6,8 @@
 - 방희연, 서현주, 이승재, 조수빈
 
 
-<details> 
-  <summary> 🧸 각 멤버 역할과 역량 </summary>
+<details>  
+  <summary> ➕ __각 멤버 역할과 역량__ </summary>
 
 |Participant|Roles|Skills|Training needs|
 |:---:|-----------|---|---|
