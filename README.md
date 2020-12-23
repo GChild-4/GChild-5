@@ -107,7 +107,7 @@ NO. 01 **<<ObserveUser - 방희연, 조수빈>>**
 
 NO. 02 **<<TalkwithCompanion - 서현주 >>**
 
-<img src = "img/HaveConversationSeqD.PNG" width = "750" height = "430" alt = "TalkwithCompanion Sequence Diagram">
+<img src = "https://user-images.githubusercontent.com/70620379/102995859-45ccdf80-4565-11eb-9acb-12a93148bc39.PNG" width = "750" height = "430" alt = "TalkwithCompanion Sequence Diagram">
 
 ### 🌻 Class Diagram
 **<<조수빈, 이채영>>** - <<수정 : 이채영>>
