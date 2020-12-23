@@ -93,7 +93,7 @@ NO. 02 **<<TalkwithCompanion - 서현주>>**
 ### 🌻 Sequence Diagram
 NO. 01 **<<OvserveUser - 방희연, 조수빈>>**
 
-<img width="783" alt="sequence diagram(2)" src="https://user-images.githubusercontent.com/69884151/102841975-4e2ff800-4449-11eb-9751-4aef5e4cda4a.PNG">
+<img width="785" alt="sequence diagram" src="https://user-images.githubusercontent.com/69884151/102991495-a60b5380-455c-11eb-8133-a02c050449ef.PNG">
 
 NO. 02 **<<TalkwithCompanion - 서현주 >>**
 
@@ -102,7 +102,7 @@ NO. 02 **<<TalkwithCompanion - 서현주 >>**
 ### 🌻 Class Diagram
 **<<조수빈, 이채영>>** 
 
-<img src = "img\classDiagram_수정.jpg" width = "750" height = "430" alt = "Use Case Diagram">
+<img src = "img\classDiagram_수정본.jpg" width = "750" height = "430" alt = "Use Case Diagram">
 
 ### 🌻 Object Diagram
 **<<이승재>>** 
