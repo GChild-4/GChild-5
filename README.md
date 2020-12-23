@@ -115,9 +115,9 @@ NO. 02 **<<TalkwithCompanion - 서현주 >>**
 <img src = "img\classDiagram_수정.jpg" width = "750" height = "430" alt = "Use Case Diagram">
 
 ### 🌻 Object Diagram - PlayEntertainment
-**<<이승재>>** 
+**<<이승재>>** - <<수정 : 방희연, 서현주, 조수빈, 이채영>>
 
-<img src = "img\Object diagram.PNG" width = "750" height = "430">
+<img src = "img\object_diagram.jpg" width = "750" height = "430">
 
 </detail>
 
