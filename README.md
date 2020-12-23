@@ -100,7 +100,7 @@ NO. 02 **<<TalkwithCompanion - 서현주 >>**
 <img src = "img/HaveConversationSeqD.PNG" width = "750" height = "430" alt = "TalkwithCompanion Sequence Diagram">
 
 ### 🌻 Class Diagram
-**<<조수빈, 이채영>>** 
+**<<조수빈, 이채영>>** - <<수정 : 이채영>>
 
 <img src = "img\classDiagram_수정본.jpg" width = "750" height = "430" alt = "Use Case Diagram">
 
@@ -117,5 +117,5 @@ NO. 02 **<<TalkwithCompanion - 서현주 >>**
 </br>
 
 ### 🌻 Deployment Diagram &  Component Diagram
-
+**<<방희연, 이채영>>** 
 <img src = "img/Deploy&Component.jpg" width = "750" height = "430">
