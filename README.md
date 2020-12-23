@@ -5,7 +5,8 @@
 - 조장 : 이채영
 - 방희연, 서현주, 이승재, 조수빈
 
-### 🧸 각 멤버 역할과 역량
+<details open> 
+  <summary>### 🧸 각 멤버 역할과 역량</summary>
 
 |Participant|Roles|Skills|Training needs|
 |:---:|-----------|---|---|
@@ -14,6 +15,8 @@
 |이승재|Android Developer, <br/>Tester|Programming : Java, C, Python|UML, Kotlin|
 |서현주|Embedded developer, <br/>Facilities management|Programming: Python, Java, C|UML|
 |조수빈|Embedded developer, <br/>Document editor|Programming: Python, Java, C|UML|
+
+</details>
 
 ### ✏ Project Problem Statement
 달콩이는 독거노인의 말벗이 되어줄 뿐만 아니라 다양한 기능을 구현하여 노인 우울 및 불안, 외로움을 해소시켜주는 반려 로봇이다. 본 디바이스를 활용하였을 때 노인을 심리 정서적으로 안정시킬 수 있으며, 위험에 대한 대비를 가능하도록 하고, 보호자가 노인에 대한 정보를 쉽게 접근할 수 있도록 한다.
