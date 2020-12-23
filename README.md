@@ -102,7 +102,7 @@ NO. 02 **<<TalkwithCompanion - 서현주 >>**
 ### 🌻 Class Diagram
 **<<조수빈, 이채영>>** 
 
-<img src = "img\classDiagram_수정본.jpg" width = "750" height = "430" alt = "Use Case Diagram">
+<img src = "img\classDiagram_수정.jpg" width = "750" height = "430" alt = "Use Case Diagram">
 
 ### 🌻 Object Diagram
 **<<이승재>>** 
