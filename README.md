@@ -7,7 +7,7 @@
 
 
 <details>  
-  <summary> ➕ __각 멤버 역할과 역량__ </summary>
+  <summary> ➕ 각 멤버 역할과 역량 </summary>
 
 |Participant|Roles|Skills|Training needs|
 |:---:|-----------|---|---|
