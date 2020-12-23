@@ -91,7 +91,7 @@ NO. 02 **<<TalkwithCompanion - 서현주>>**
  ***
 
 ### 🌻 Sequence Diagram
-NO. 01 **<<OvserveUser - 방희연, 조수빈>>**
+NO. 01 **<<ObserveUser - 방희연, 조수빈>>**
 
 <img width="785" alt="sequence diagram" src="https://user-images.githubusercontent.com/69884151/102991495-a60b5380-455c-11eb-8133-a02c050449ef.PNG">
 
