@@ -1,13 +1,14 @@
 # 🧚 GChild-5
 + 노인과 양방향적 의사소통을 가능하게 함으로써, 노인 우울, 외로움을 해결하고 주기적으로 건강을 확인하는 반려로봇 제작 프로젝트
 
-### 🧸 팀 구성원
+<details>  
+  <summary> Team Building </summary>
+
+🧸 팀 구성원
 - 조장 : 이채영
 - 방희연, 서현주, 이승재, 조수빈
 
-
-<details>  
-  <summary> ➕ 각 멤버 역할과 역량 </summary>
+🧸 각 멤버 역할과 역량 
 
 |Participant|Roles|Skills|Training needs|
 |:---:|-----------|---|---|
@@ -19,8 +20,9 @@
 
 </details>
 
-
-### ✏ Project Problem Statement
+<details>  
+  <summary> Project Problem Statement </summary>
+  
 달콩이는 독거노인의 말벗이 되어줄 뿐만 아니라 다양한 기능을 구현하여 노인 우울 및 불안, 외로움을 해소시켜주는 반려 로봇이다. 본 디바이스를 활용하였을 때 노인을 심리 정서적으로 안정시킬 수 있으며, 위험에 대한 대비를 가능하도록 하고, 보호자가 노인에 대한 정보를 쉽게 접근할 수 있도록 한다.
 
 #### 📌Analysis
@@ -42,9 +44,14 @@
 + Constraints or Pseudo requirement
   + 제작 될 어플리케이션은 Java와 호환성이 좋으며 문법이 간결하고 컴파일이 빠르게 이루어진다는 점에서 Kotiln을 사용하여 작성한다.
   + 프로젝트에 제작 될 웹 프레임워크(서버)는 가벼우며 개발자 자유도가 높기 때문에 Flask를 이용한다.
-   
- ***
  
+ 
+ </details>
+ 
+ 
+ <details>  
+  <summary> Use Case Diagram, Senario Description, Use Case Description </summary> 
+    
 ### 🌻 Use Case Diagram
 **<<이채영>>**
 
@@ -57,7 +64,7 @@ NO. 01 **<<PlayEntertainment - 방희연>>**
 |:---------------:|--------------------------|
 |__Scenario 01 name__|PlayEntertainment|
 |__Participating actor instances__|Jane : Dalkong User(elder), <br/>Speaker, Microphone|
-|__Flow of events__| 1. Jane 또는 보호자들이 사전에 일정을 등록해 놓음으로써 시간이 되면 알림을 받을 수 있다.<br/>2. 무료한 시간을 보내고 있는 Jane은 달콩이의 오른손을 누름으로써 간단한 엔터테인먼트 활동을 즐길 수 있다.<br/>3. 활동은 게임 혹은 명상 등으로 미리 등록되어있다. Jane은 엔터테이먼트 활동에 게임을 Play 하였다. <br/>4. 활동이 유익했다고 생각하며 주기적으로 엔터테인먼트 활동을 즐기고 싶다고 생각한 Jane은 음성인식을 통해 일정을 등록한다.<br/>5. "달콩아, 일정 등록해줘" -> "네~ 언제 무슨 일정을 등록할까요?" -> "월요일, 수요일 오후 6시에 엔터테인먼트 활동으로 부탁해~"<br/> 6. 일정이 달콩에 등록되었고, Jane은 등록한 시간에 알림을 받을 수 있다. |
+|__Flow of events__| 1. Jane 또는 보호자들이 사전에 일정을 등록해 놓음으로써 시간이 되면 알림을 받을 수 있다.<br/>2. 무료한 시간을 보내고 있는 Jane은 달콩이의 오른손을 누르면 게임, 왼손을 누르면 명상과 같은 간단한 엔터테인먼트 활동을 즐길 수 있다.<br/>3. 활동은 게임 혹은 명상 등으로 미리 등록되어있다. Jane은 엔터테이먼트 활동에 게임을 Play 하였다. <br/>4. 활동이 유익했다고 생각하며 주기적으로 엔터테인먼트 활동을 즐기고 싶다고 생각한 Jane은 음성인식을 통해 일정을 등록한다.<br/>5. "달콩아, 일정 등록해줘" -> "네~ 언제 무슨 일정을 등록할까요?" -> "월요일, 수요일 오후 6시에 엔터테인먼트 활동으로 부탁해~"<br/> 6. 일정이 달콩에 등록되었고, Jane은 등록한 시간에 알림을 받을 수 있다. |
 
 NO. 02 **<<ObserveUserforEmergencies - 이채영>>**
 |||
@@ -88,8 +95,11 @@ NO. 02 **<<TalkwithCompanion - 서현주>>**
 |__Exit condition__|달콩이가 Speaker 통해 적절한 대답을 출력한다.|
 |__Quality requirements__|대화 시 문맥에 맞는 대화가 이루어져야 하므로 Dalkong System의 언어 학습이 제대로 수행되어야 한다.|
 
- ***
+  </details>
 
+<details>  
+  <summary> Sequence Diagram, Class Diagram, Object Diagram </summary>
+    
 ### 🌻 Sequence Diagram
 NO. 01 **<<ObserveUser - 방희연, 조수빈>>**
 
@@ -109,6 +119,11 @@ NO. 02 **<<TalkwithCompanion - 서현주 >>**
 
 <img src = "img\Object diagram.PNG" width = "750" height = "430">
 
+</detail>
+
+<details>  
+  <summary> Design Goal Description, Component Diagram & Deployment Diagram </summary>
+
 ### 📌 Design Goal Description
 + Dalkong system은 말동무, 시선관찰, 엔터테인먼트(게임, 명상)와 같은 기존 기능을 클래스로 분리하여 개별적으로 개발함으로써 노인을 위한 새로운 기능이 추가될 수 있어야 하며, 기존 기능 또한 쉽게 수정될 수 있어야 한다.
 </br>
@@ -116,6 +131,8 @@ NO. 02 **<<TalkwithCompanion - 서현주 >>**
 + Dalkong system은 경험이 없는 사람도 설명서를 보지 않고 10분 안에 사용가능하도록 한다.
 </br>
 
-### 🌻 Deployment Diagram &  Component Diagram
+### 🌻 Component Diagram & Deployment Diagram
 **<<방희연, 이채영>>** 
 <img src = "img/Deploy&Component.jpg" width = "750" height = "430">
+
+</detail>
