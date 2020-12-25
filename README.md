@@ -26,9 +26,11 @@
 달콩이는 독거노인의 말벗이 되어줄 뿐만 아니라 다양한 기능을 구현하여 노인 우울 및 불안, 외로움을 해소시켜주는 반려 로봇이다. 본 디바이스를 활용하였을 때 노인을 심리 정서적으로 안정시킬 수 있으며, 위험에 대한 대비를 가능하도록 하고, 보호자가 노인에 대한 정보를 쉽게 접근할 수 있도록 한다.
 
 #### 📌Analysis
+**<<방희연>>**
 + 고령화가 가속화되어 노인 인구가 증가됨에 따라 돌봄이 필요한 노인들의 수도 늘어나고 있다. 혼자 계시거나 건강이 좋지 않은 어르신들은 보호자의 지속적인 돌봄 및 관심이 필요하지만 사정 상 하루 종일 노인을 돌볼 수 없는 보호자들도 있다. 이에 따라 노인들은 정서적으로 외로움 및 우울감을 느끼거나 응급상황 발생 시 신속한 처리가 어려워지고, 보호자들도 불안감을 느끼게 된다. 그러므로 반려 로봇을 제공하여 노인과 보호자 양쪽에게 안전에 대한 불안감을 해소하고 노인의 말동무가 되어 이러한 문제를 해결하고자 한다.
 
 #### 📌 Functuonal Requirement
+**<<방희연, 서현주, 조수빈>>** - <<수정 : 서현주>>
 + 말동무
 </br>‘달콩이’는 노인분들의 우울감과 외로움을 해결하기 위해 말동무가 되어 일상적 대화를 수행하는 기능을 가지고 있다. 노인이 말을 걸면 스피커를 이용하여 음성을 인식하고 정해진 대화 매뉴얼에 따라 대답을 하면서 의사소통이 가능하도록 한다.
 + 시선관찰
@@ -39,6 +41,7 @@
 </br>‘달콩이’는 의료(병원 방문, 투약 일정 등)와 관련된 일정을 등록할 경우 알림을 울려 주요 일정을 알려준다. 노인 또는 보호자는 음성 인식 기능 혹은 앱을 이용하여 일정 제목, 시간 등을 등록 또는 변경이 가능하다.
 
 #### 📌 Nonfunctuonal Requirement
+**<<이승재, 이채영>>**
 + Quality requirement
   + Supportability : 어플리케이션 제작 시 사용자에 따라 이용을 분리하여 설계하여 새로운 사용자 추가가 용이하다.
 + Constraints or Pseudo requirement
@@ -101,23 +104,24 @@ NO. 02 **<<TalkwithCompanion - 서현주>>**
   <summary> Sequence Diagram, Class Diagram, Object Diagram </summary>
     
 ### 🌻 Sequence Diagram
-NO. 01 **<<ObserveUser - 방희연, 조수빈>>**
+NO. 01 **<<ObserveUser - 방희연>>** - <<수정 : 조수빈>>
 
 <img width="785" alt="sequence diagram" src="https://user-images.githubusercontent.com/69884151/102991495-a60b5380-455c-11eb-8133-a02c050449ef.PNG">
 
-NO. 02 **<<TalkwithCompanion - 서현주 >>**
+NO. 02 **<<TalkwithCompanion - 서현주 >>**  - <<수정 : 서현주>>
 
 <img src = "https://user-images.githubusercontent.com/70620379/102995859-45ccdf80-4565-11eb-9acb-12a93148bc39.PNG" width = "750" height = "430" alt = "TalkwithCompanion Sequence Diagram">
 
 ### 🌻 Class Diagram
-**<<조수빈, 이채영>>** - <<수정 : 이채영>>
+**<<이채영, 조수빈>>** - <<수정 : 이채영>>
 
 <img src = "img\Class_Diagram_수정2.jpg" width = "750" height = "430" alt = "Use Case Diagram">
 
 ### 🌻 Object Diagram - PlayEntertainment
-**<<이승재>>** - <<수정 : 방희연, 서현주, 조수빈, 이채영>>
+**<<이승재>>** - <<수정 : 방희연, 서현주, 이채영, 조수빈>>
 
 <img src = "img\object_diagram.jpg" width = "750" height = "430">
++ 다음 Object Diagram은 PlayEntertainment에서 User가  Dalkong에게 게임을 하고 싶다고 말하면서 오른손 버튼을 2번 눌러 끝말잇기 게임을 선택한 경우를 나타낸 것입니다.
 
 </detail>
 
