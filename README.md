@@ -119,10 +119,10 @@ NO. 02 **<<TalkwithCompanion - 서현주 >>**  - <<수정 : 서현주>>
 
 ### 🌻 Object Diagram - PlayEntertainment
 **<<이승재>>** - <<수정 : 방희연, 서현주, 이채영, 조수빈>>
-
-<img src = "img\object_diagram.jpg" width = "750" height = "430">
 + 다음 Object Diagram은 PlayEntertainment에서 User가  Dalkong에게 게임을 하고 싶다고 말하면서 오른손 버튼을 2번 눌러 끝말잇기 게임을 선택한 경우를 나타낸 것입니다.
 </br>
+
+<img src = "img\object_diagram.jpg" width = "750" height = "430">
 
 </detail>
 
