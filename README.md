@@ -124,7 +124,7 @@ NO. 02 **<<TalkwithCompanion - 서현주 >>**  - <<수정 : 서현주>>
 
 <img src = "img\object_diagram.jpg" width = "750" height = "430">
 
-</detail>
+</details>
 
 <details>  
   <summary> Design Goal Description, Component Diagram & Deployment Diagram </summary>
@@ -141,4 +141,4 @@ NO. 02 **<<TalkwithCompanion - 서현주 >>**  - <<수정 : 서현주>>
 **<<방희연, 이채영>>** 
 <img src = "img/Deploy&Component.jpg" width = "750" height = "430">
 
-</detail>
+</details>
